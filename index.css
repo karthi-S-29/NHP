@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+p:hover{
+    color: white;
+}
 /* <!-- web site nav bar --> */
 
 .nav_Logo{
@@ -18,6 +21,9 @@ nav{
     justify-content: space-between;
     padding: 10px;
     height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .nav_head1{
     display: flex;
@@ -109,6 +115,10 @@ nav{
     gap: 50px;
     
 }
+.card_content h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 .card_f:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px 5px 10px rgba(0, 0, 0, 0.2), 5px -5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -127,6 +137,38 @@ nav{
     flex-direction: column;
     gap: 30px;
 }
+.About_head{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.About_ourwork,.About_ourstory{
+    width: 300px;
+}
+.about_img{
+    width: 400px;
+    height: 400px;
+    
+    
+    border-radius: 50%;
+}
+.About_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.About_body p{
+    text-align: left;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+    width: 600px;
+    font-size: 16px;
+
+}
+
 
 /* <!-- web site body part About us --> */
 /* <!-- web site body part footer --> */
@@ -225,6 +267,14 @@ nav{
     /* .aboutus{
         height: 1000px;
     } */
+
+    .About_head{
+        display: flex;
+        flex-direction: column;
+    }
+    .About_ourwork,.About_ourstory{
+        width: 500px;
+    }
     .footer{
         flex-direction: column;
         
