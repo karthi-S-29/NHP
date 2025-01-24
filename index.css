@@ -272,8 +272,12 @@ nav{
         display: flex;
         flex-direction: column;
     }
+    .About_body p{
+        width: 80%;
+
+    }
     .About_ourwork,.About_ourstory{
-        width: 500px;
+        width: 80%;
     }
     .footer{
         flex-direction: column;
