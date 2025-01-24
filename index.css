@@ -150,9 +150,13 @@ nav{
 .about_img{
     width: 400px;
     height: 400px;
+    padding: 20px;
     
     
     border-radius: 50%;
+}
+.About_our{
+    font-weight: bold;
 }
 .About_body{
     display: flex;
