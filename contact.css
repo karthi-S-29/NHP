@@ -6,7 +6,9 @@
 
 /* <!-- web site nav bar --> */
 
-
+p:hover{
+    color: white;
+}
 .nav_Logo{
     width: 90px;
     height: 60px;
