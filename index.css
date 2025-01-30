@@ -6,6 +6,10 @@
 p:hover{
     color: white;
 }
+p a{
+    text-decoration: none;
+    color: black;
+}
 /* <!-- web site nav bar --> */
 
 .nav_Logo{

@@ -78,53 +78,13 @@ nav{
 }
 /* <!-- web site nav bar --> */
 
-.contact_social_icons i{
-    font-size: 40px;
-    padding-right: 10px;
-    color: black;
-    
-}
-.contact_social_icons i:hover{
-    color: rgba(210, 194, 13, 0.538);
-}
-.contact_social_icons{
-    margin-left: -90px;
-}
-.contact_first h3{
-    border-bottom: 2px solid rgb(17, 1, 1);
-    display: inline-block;
-}
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 70px;
-    background-color: lightgray;
-}
-.main_contact{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.map{
-    width: 50%;
-}
-.Studio h4{
-    text-align: center;
-}
-.studio_video video{
-    width: 90%;
-    height: 600px;
 
-}
-.studio_video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
+
+
+
 /* <!-- web site body part footer --> */
 .footer{
     display: flex;
@@ -177,16 +137,8 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
 @media(max-width:800px){
+
     /* <!-- web site nav bar --> */
     .nav_head1 p{
         display: none;
@@ -195,28 +147,8 @@ nav{
         display: block;
     }
     /* <!-- web site nav bar --> */
-    /* contact body */
-    .main{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .main_contact{
-        padding: 10px;
-        width: 100%;
-    }
-    .map{
-        width: 100%;
-    }
-    .contact_social_icons i{
-        font-size: 30px;
-        padding-right: 10px;
-    
-    }
-    .studio_video video{
-        width: 90%;
-        height: 400px;
-    
-    }
+
+
 
     .footer{
         flex-direction: column;
