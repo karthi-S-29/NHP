@@ -77,7 +77,11 @@ nav{
 .contact_social_icons i{
     font-size: 40px;
     padding-right: 10px;
+    color: black;
     
+}
+.contact_social_icons i:hover{
+    color: rgba(210, 194, 13, 0.538);
 }
 .contact_social_icons{
     margin-left: -90px;
