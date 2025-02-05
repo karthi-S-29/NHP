@@ -188,8 +188,9 @@ nav{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 85vh;
+    top: 78vh;
     padding: 5px;
+    padding-bottom: 10px;
 
 }
 .xmark1 i,.xmark2 i{
@@ -201,7 +202,7 @@ nav{
 }
 .xmark1{
     position: fixed;
-    top: 67vh;
+    top: 60vh;
     display: none;
     
 }
