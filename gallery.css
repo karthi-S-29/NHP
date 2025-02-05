@@ -95,9 +95,7 @@ nav{
     transition-duration: 1s;
 
 }
-.gallery_main img:nth-child(odd){
-    opacity: 1;
-}
+
 
 .gallery_main{
     display: grid;
@@ -108,7 +106,9 @@ nav{
     grid-template-columns: repeat(auto-fit,minmax(400px,450px));
 
 }
-
+.gallery_main img:nth-child(odd){
+    opacity: 1;
+}
 .gallery_main img:nth-child(odd):hover{
     
     scale: 1.1;
@@ -199,7 +199,17 @@ nav{
         grid-template-columns: auto auto;
     
     }
-    
+    .gallery_main img:nth-child(odd){
+        opacity: 0.7;
+    }
+    .gallery_main img:nth-child(odd):hover{
+        opacity: 1;
+        scale: 1.1;
+    }
+    .gallery_main img:nth-child(even):hover{
+        scale: 1.1;
+        opacity: 1;
+    }
 
 
 
