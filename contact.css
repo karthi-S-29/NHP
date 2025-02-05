@@ -131,20 +131,20 @@ nav{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 70vh;
-    padding: 10px;
+    top: 85vh;
+    padding: 5px;
 
 }
 .xmark1 i,.xmark2 i{
-    color: rgba(0, 0, 255, 0.858);
+    color:black;
     border-radius: 50%;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(66, 189, 246);
 }
 .xmark1{
     position: fixed;
-    top: 53vh;
+    top: 67vh;
     display: none;
     
 }

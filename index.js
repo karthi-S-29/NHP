@@ -8,7 +8,7 @@ function hidesidebar(){
     nav_head2 .style.display='none';
 }
 
-function showsidebar(){
+function showsidebar1(){
     let xmark1=document.querySelector('.xmark1')
     xmark1.style.display='flex';
     let xmark2=document.querySelector('.xmark2')
@@ -17,7 +17,7 @@ function showsidebar(){
     
     
 }
-function hidesidebar(){
+function hidesidebar1(){
     let xmark1=document.querySelector('.xmark1')
     xmark1 .style.display='none';
     let xmark2=document.querySelector('.xmark2')
