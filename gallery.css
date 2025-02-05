@@ -77,9 +77,48 @@ nav{
     font-size: 35px;
 }
 /* <!-- web site nav bar --> */
+.main h1{
+    color: red;
+    display: inline;
+    border-bottom: 2px solid black;
+    
+}
+.main{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.gallery_main img{
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+    border: 2px solid lightgray;
+    opacity: 0.7;
+    transition-duration: 1s;
 
+}
+.gallery_main img:nth-child(odd){
+    opacity: 1;
+}
 
+.gallery_main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(400px,450px));
 
+}
+
+.gallery_main img:nth-child(odd):hover{
+    
+    scale: 1.1;
+}
+.gallery_main img:nth-child(even):hover{
+    opacity: 1;
+}
 
 
 
@@ -147,6 +186,7 @@ nav{
         display: block;
     }
     /* <!-- web site nav bar --> */
+    
 
 
 
