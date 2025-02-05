@@ -6,9 +6,6 @@
 
 /* <!-- web site nav bar --> */
 
-p:hover{
-    color: white;
-}
 p a{
     text-decoration: none;
     color: black;
@@ -186,6 +183,22 @@ nav{
         display: block;
     }
     /* <!-- web site nav bar --> */
+
+    .gallery_main img{
+        width: 85%;
+        height: 300px;
+        
+    
+    }
+    .gallery_main{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        grid-template-columns: auto auto;
+    
+    }
     
 
 
