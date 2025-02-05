@@ -83,7 +83,30 @@ nav{
 
 
 
+/* side icons */
+.xmark1,.xmark2{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70vh;
+    padding: 10px;
 
+}
+.xmark1 i,.xmark2 i{
+    color: rgba(0, 0, 255, 0.858);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+}
+.xmark1{
+    position: fixed;
+    top: 53vh;
+    display: none;
+    
+}
+/* side icons */
 
 /* <!-- web site body part footer --> */
 .footer{
