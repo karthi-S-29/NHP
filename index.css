@@ -137,7 +137,7 @@ nav{
 
 .aboutus{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: lightgray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -146,6 +146,16 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.aboutus h1{
+    font-weight: bold;
+    
+    
+}
+.aboutus h1 span{
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    
 }
 .About_head{
     display: flex;
@@ -182,6 +192,37 @@ nav{
     font-size: 16px;
 
 }
+.about_body2head h1{
+    font-weight: bold;
+
+}
+.about_body2head p{
+    border-bottom: 2px solid black;
+    display: inline;
+    padding: 5px 20px;
+    
+}
+.About_body2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.body2_1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.body2{
+    font-size: 20px;
+    border: 2px solid rgba(16, 16, 16, 0.727);
+    padding: 20px;
+    margin: 10px;
+}
+.body2 h3{
+    font-weight:600;
+
+
+}
+
 /* side icons */
 .xmark1,.xmark2{
     font-size: 35px;
@@ -305,6 +346,15 @@ nav{
     /* .aboutus{
         height: 1000px;
     } */
+    .About_body2{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .body2_1{
+        display: grid;
+        grid-template-columns: auto;
+    }
 
     .About_head{
         display: flex;
