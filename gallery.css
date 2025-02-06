@@ -111,14 +111,12 @@ nav{
     opacity: 1;
 }
 .gallery_main img:nth-child(odd):hover{
-    width: 100%;
-    z-index: 99;
+    
     scale: 1.1;
 }
 .gallery_main img:nth-child(even):hover{
     opacity: 1;
-    width: 500px;
-    height: 500px;
+    
 }
 /* side icons */
 .xmark1,.xmark2{
@@ -234,10 +232,11 @@ nav{
     .gallery_main img:nth-child(odd):hover{
         opacity: 1;
         scale: 1.1;
+        
     }
     .gallery_main img:nth-child(even):hover{
-        scale: 1.1;
         opacity: 1;
+        scale: 1.1;
     }
     
 
