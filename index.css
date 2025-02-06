@@ -3,6 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+.open_page img{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    
+    animation-name: openimg;
+    animation-duration: 5s;
+    opacity: 1;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-play-state: running;
+    
+}
+@keyframes openimg {
+    0%{
+        opacity: 0.7;
+        
+
+    }
+    25%{
+        opacity: 0.3;
+       
+        
+    }
+    60%{
+        opacity: 0.1;
+        
+        
+    }
+    100%{
+        opacity: 0;
+        margin-left: -500px;
+        
+        
+    }
+    
+}
+
 
 p:hover{
     color: white;

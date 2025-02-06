@@ -23,3 +23,10 @@ function hidesidebar1(){
     let xmark2=document.querySelector('.xmark2')
     xmark2.style.display='block';
 }
+
+var loader=document.querySelector('.open_page');
+ window.addEventListener("load",function(){
+    
+    loader .style.display='none';
+
+ })
